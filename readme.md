@@ -10,7 +10,7 @@ This project is for developers who are willing to get the basic knowledge of SQL
 2. Run `vagrant up` then `vagrant ssh`.
 3. Download the data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip), unzip the file into `vagrant` directory.
 4. Load the data by typing this `psql -d news -f newsdata.sql`
-5. run this code to create a view:
+5. Run this code to create a view(**important**):
 
  ```sql
  CREATE view article_title AS
