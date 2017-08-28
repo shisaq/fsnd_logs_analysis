@@ -16,7 +16,7 @@ This project is for developers who are willing to get the basic knowledge of SQL
  CREATE view article_title AS
  SELECT replace(path, '/article/', '')
  FROM log
- WHERE log.path like '/article/%;
+ WHERE log.path like '/article/%';
  ```
 
 6. `cd vagrant/news` and run `python newsdb.py`
